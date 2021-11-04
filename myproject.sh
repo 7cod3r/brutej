@@ -30,7 +30,7 @@ printf "     ${author}\n"
 banner
 
         echo ""
-        read -p "$(echo -e "$kirmizi[$yesil+$kirmizi]$sari" RHOST address : "$kirmizi)" ip
+        read -p "$(echo -e $kirmizi[$yesil+$kirmizi]$sari" RHOST address : "$kirmizi)" ip
         sleep 1
         printf "\n"
         read -p $' $kirmizi[$yesil+$kirmizi]$sari List of users : $kirmizi' listuser
