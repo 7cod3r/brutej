@@ -93,5 +93,5 @@ else
         printf "\n"
         printf "$beyaz--> $kirmizi Wrong choice !\n"
         sleep 2
-        bash myproject.sh
+        bash brute.sh
 fi
