@@ -37,6 +37,8 @@ printf "\n"
 printf "\n"
 printf "     ${author}\n"
 printf "\n"
+printf "
+printf "  read -p "$(echo -e $kirmizi[$yesil+$kirmizi]$sari" Enter your choice : "$kirmizi)"\n" cihad
 }
 banner
 if [[ $cihad == 1 || $cihad == 01 ]]; then
