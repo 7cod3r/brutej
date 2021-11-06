@@ -25,11 +25,11 @@ author="\e[33mAuthor : \e[31mX\e[32mcihad \e[31mV1.0\e[0m"
 banner(){
 printf "\n"
 printf "\n"
-printf "     $mor██████  ██████  ██    ██ ████████ ███████      ██$reset \n"
-printf "     $mor██   ██ ██   ██ ██    ██    ██    ██           ██$reset \n"
-printf "     $mor██████  ██████  ██    ██    ██    █████        ██$reset \n"
-printf "     $mor██   ██ ██   ██ ██    ██    ██    ██      ██   ██$reset \n"
-printf "     $mor██████  ██   ██  ██████     ██    ███████  █████ $reset \n"
+printf "     $mor██████  ██████  ██    ██ ████████ ███████      ██\n"
+printf "     $mor██   ██ ██   ██ ██    ██    ██    ██           ██\n"
+printf "     $mor██████  ██████  ██    ██    ██    █████        ██\n"
+printf "     $mor██   ██ ██   ██ ██    ██    ██    ██      ██   ██\n"
+printf "     $mor██████  ██   ██  ██████     ██    ███████  █████\n"
 printf "\n"
 printf "\n"
 printf "\e[1;77m\e[41m    FTP/SSH Bruteforce attack automation with Metasploit \e[0m\n"
@@ -37,10 +37,10 @@ printf "\n"
 printf "\n"
 printf "     ${author}\n"
 printf "\n"
-printf "   $kirmizi[\e[32m1$kirmizi]$sari IG Bruteforce $mor(Comming soon)\n"
+printf "   $kirmizi[\e[32m!$kirmizi]$sari IG Bruteforce $mor(Coming soon)\n"
 printf "   $kirmizi[\e[32m1$kirmizi]$sari FTP Bruteforce\n"
 printf "   $kirmizi[\e[32m2$kirmizi]$sari SSH Bruteforce\n"
-printf "  read -p "$(echo -e $kirmizi[$yesil+$kirmizi]$sari" Enter your choice : "$kirmizi)"\n" cihad
+read -p "$(echo -e $kirmizi[$yesil+$kirmizi]$sari" Enter your choice : "$kirmizi)" cihad
 }
 banner
 if [[ $cihad == 1 || $cihad == 01 ]]; then
