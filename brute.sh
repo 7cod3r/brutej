@@ -37,7 +37,9 @@ printf "\n"
 printf "\n"
 printf "     ${author}\n"
 printf "\n"
-printf "
+printf "   $kirmizi[\e[32m1$kirmizi]$sari IG Bruteforce $mor(Comming soon)\n"
+printf "   $kirmizi[\e[32m1$kirmizi]$sari FTP Bruteforce\n"
+printf "   $kirmizi[\e[32m2$kirmizi]$sari SSH Bruteforce\n"
 printf "  read -p "$(echo -e $kirmizi[$yesil+$kirmizi]$sari" Enter your choice : "$kirmizi)"\n" cihad
 }
 banner
