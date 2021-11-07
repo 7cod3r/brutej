@@ -33,7 +33,7 @@ clear
 
 dependencies() {
 echo ""
-command -v msfconsole > /dev/null 2>&1 || { printf >&2 "$kirmizi Please install metasploit and try again. Aborting."; exit 1; }
+command -v msfconsole > /dev/null 2>&1 || { printf >&2 "$kirmizi Please install metasploit and try again. Aborting."; echo "" exit 1; }
 if [ $(ls /dev/urandom >/dev/null; echo $?) == "1" ]; then
 echo "/dev/urandom not found!"
 exit 1
