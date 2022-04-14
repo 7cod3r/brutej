@@ -48,7 +48,7 @@ mavi="\e[36m"
 mor="\e[34m"
 beyaz="\033[1;37m"
 reset="\e[0m"
-author="\e[33mAuthor : \e[31mX\e[32mcihad \e[31mV1.0\e[0m"
+author="\e[33mAuthor : \e[31m7cod3r -\e[32m endercoder \e[31mV1.0\e[0m"
 
 banner(){
 dependencies
